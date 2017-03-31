@@ -4,4 +4,4 @@ dist/
 app.yaml
 .DS_Store
 .publish
-.npm-debug.log
+npm-debug.log

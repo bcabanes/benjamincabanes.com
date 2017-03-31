@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "Benjamin Cabanes",
+  "launch_path": "/index.html",
+  "description": "Ben's home",
+  "icons": {
+    "128": "/images/touch/icon-128x128.png"
+  },
+  "developer": {
+    "name": "Benjamin Cabanes",
+    "url": "http://benjamincabanes.com"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Benjamin Cabanes",
+      "description": "Ben's home."
+    }
+  }
+}

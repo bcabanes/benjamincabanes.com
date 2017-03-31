@@ -1,0 +1,115 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/*
+Note: any .css or .scss files included in the 'styles' directory
+will be correctly compiled during `gulp serve` and `gulp`
+ */
+
+html, body {
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #1A1A1A;
+}
+
+a {
+  color: #0090FF;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.inline-list {
+  display: flex;
+  margin: 24px;
+  padding: 0;
+  align-items: center;
+  list-style: none;
+}
+.inline-list--align-center { justify-content: center; }
+.inline-list--align-right { justify-content: flex-end; }
+.inline-list li { margin: 0 16px; }
+
+.heading-1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.heading-3 {
+  color: #808080;
+  font-size: 18px;
+  font-weight: 300;
+}
+.heading-1--align-center,
+.heading-3--align-center { text-align: center; }
+
+.label {
+  background: rgba(254, 243, 124, 0.4);
+  padding: 0 1px;
+}
+
+.link {}
+.link--size-large { font-size: 24px; }
+
+.button {
+  background: #0090ff;
+  border-radius: 4px;
+  border: 1px solid #0090ff;
+  box-shadow: 3px 3px 0 rgba(0, 144, 255, 0.05);
+  color: #fff;
+  display: block;
+  margin: 5px;
+  padding: 8px 20px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+}
+.button:hover {
+  background: #0082e6;
+  border-color: #0082e6;
+  color: #fff;
+  box-shadow: 3px 3px 0 rgba(0,144,255,.25);
+}
+.button--size-large {
+  padding: 20px 30px;
+  width: 120px;
+}
+.button--centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+.button--align-center { text-align: center; }
+
+.introduction {
+  width: 80vw;
+  @media(min-width: 655px) { width: 650px; }
+}
+
+.avatar { margin: 24px; }
+.avatar img {
+  box-shadow: 0 0 2px 0 rgba(#1A1A1A, 0.5);
+  width: 100%;
+}
+.avatar--align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.avatar--size-large { width: 128px; }
+.avatar--image-circled img { border-radius: 100%; }

@@ -1,0 +1,10 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  <Benjamin Cabanes> -- <Frontend Developer> -- <@benCabanes>
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3, JAVASCRIPT

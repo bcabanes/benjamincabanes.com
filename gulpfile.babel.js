@@ -56,6 +56,12 @@ gulp.task('images', () =>
     .pipe($.size({title: 'images'}))
 );
 
+// Deploy to Github Pages
+gulp.task('deploy', ['default'], () => {
+  return gulp.src('dist/**/*')
+    .pipe($.ghPages());
+});
+
 // Copy all files at the root level (app)
 gulp.task('copy', () =>
   gulp.src([

